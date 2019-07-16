@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>MYST Survey Developer</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato|Ubuntu&display=swap' rel='stylesheet'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+</head>
+
+<body>
+    <header>
+        <h1>MYST Survey Developer</h1>
+    </header>
+
+    <form action='post' class='survey'>
+        <select name='surveyname' id='surveyname' required></select>
+        <input type='submit' value='Save Survey' id='save'>
+        <span>
+                <input type='text' placeholder='New survey name...' name='newsurveyname' id='newsurveyname' class='newsurvey' required>
+                <input type='text' placeholder='New survey URL...' name='newsurveyurl' id='newsurveyurl' class='newsurvey' required>
+        </span>
+
+        <fieldset class='questions'>
+            <section class='question'>
+                <select name='questiontype' class='questiontype'>
+                    <option selected disabled>Select a question type...</option>
+                    <option value='leterselect'>Alphabet select</option>
+                    <option value='sliderrange'>Slider question</option>
+                    <option value='buttonselect'>Button select</option>
+                    <option value='textenter'>Text question</option>
+                </select>
+                <input type='button' value='Remove question' class='removequestion'>
+            </section>
+        </fieldset>
+        <input type='button' value='+' id='addquestion'>
+    </form>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='addquestion.js'></script>
+    <script src='adddatapoint.js'></script>
+    <script src='selectquestion.js'></script>
+    <script src='removequestion.js'></script>
+</body>
+
+</html>

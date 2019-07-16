@@ -1,0 +1,188 @@
+/********************/
+
+
+/*Reset All Elements*/
+
+
+/********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+    width: 100%;
+    height: 90px;
+}
+
+header h1 {
+    font-size: 70px;
+    color: #281010;
+    margin-left: 2vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+
+form * {
+    color: #281010;
+}
+
+#save {
+    height: 24px;
+    float: right;
+    font-weight: bold;
+}
+
+#save:focus {
+    border: 2px solid #c82028;
+    color: #b0b0b8;
+    background-color: #d8d8e0;
+}
+
+#surveyname {
+    width: 412px;
+}
+
+span {
+    width: 100%;
+    display: block;
+}
+
+.newsurvey {
+    display: inline-block;
+    /*display: none;*/
+}
+
+.question {
+    width: 90%;
+    background-color: #dddddd;
+    border-radius: 5px;
+    border: 2px solid #b0b0b8;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+select {
+    -webkit-appearance: none;
+    text-indent: 5px;
+    text-overflow: '';
+    background-image: url(selectarrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 24px;
+    width: 204px;
+    margin: 5px 0px;
+    background-color: #b0b0b8;
+    border-radius: 2px;
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+select:hover {
+    border: 2px solid #c82028;
+}
+
+input[type=text]:focus {
+    border: 2px solid #c82028;
+}
+
+input {
+    text-indent: 5px;
+    text-overflow: '';
+    margin: 5px 0px;
+    background-color: #b0b0b8;
+    border-radius: 2px;
+    text-align: center;
+    height: 24px;
+    width: 200px;
+    border: 2px solid transparent;
+    padding: 0px;
+}
+
+input:hover {
+    border: 2px solid #c82028;
+}
+
+textarea {
+    display: block;
+    text-indent: 5px;
+    text-overflow: '';
+    margin: 5px auto;
+    background-color: #b0b0b8;
+    border-radius: 2px;
+    text-align: left;
+    height: 48px;
+    width: 100%;
+    border: 2px solid transparent;
+    padding: 0px;
+}
+
+textarea:hover {
+    border: 2px solid #c82028;
+}
+
+textarea:focus {
+    border: 2px solid #c82028;
+}
+
+.adddatapoint {
+    display: block;
+    position: relative;
+    right: 0px;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-indent: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#addquestion {
+    position: relative;
+    right: 0px;
+    left: 85%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-indent: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.datapoints {
+    margin: 10px 50px;
+    border-top: 2px solid #c82028;
+    border-bottom: 2px solid #c82028;
+}
+
+.questiondp {
+    display: block;
+    margin: 10px;
+}
+
+::placeholder {
+    color: #d8d8e0;
+}
+
+.removequestion {
+    float: right;
+}
