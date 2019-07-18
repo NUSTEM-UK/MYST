@@ -1,8 +1,4 @@
-window.onload = function() {
+$(".readquestion").click(function() {
     var text = $(".survey h2").html();
-    readquestion(text);
-};
-
-function readquestion(text) {
-    artyom.say(text);
-}
+    speechSynthesis.speak(new SpeechSynthesisUtterance(text));
+});
