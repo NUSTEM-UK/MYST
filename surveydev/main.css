@@ -51,12 +51,6 @@ form * {
     font-weight: bold;
 }
 
-#save:focus {
-    border: 2px solid #c82028;
-    color: #b0b0b8;
-    background-color: #d8d8e0;
-}
-
 #surveyname {
     width: 412px;
 }

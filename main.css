@@ -1,0 +1,55 @@
+/********************/
+
+
+/*Reset All Elements*/
+
+
+/********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Lato', sans-serif;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+
+form * {
+    color: #281010;
+}
+
+fieldset {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.alphachar {
+    text-overflow: '';
+    margin: 5px;
+    background-color: #b0b0b8;
+    border-radius: 2px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.alphachar:hover {
+    border: 2px solid #c82028;
+}

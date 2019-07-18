@@ -1,4 +1,4 @@
-//JQuery function call on click of next button to create question type specific elements
+//JQuery function call on click of the button to create question type specific elements
 $("form").on("change", ".questiontype", function() {
     let value = $("option:selected", this).val();
     let question = $(this).parent();
