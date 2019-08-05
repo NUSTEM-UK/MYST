@@ -17,14 +17,14 @@
     font-family: 'Lato', sans-serif;
 }
 
-.qheader {
+header {
     margin: 0;
     padding: 0;
     background-color: #dddddd;
     width: 100%;
 }
 
-.qheader h1 {
+header h1 {
     font-size: 70px;
     color: #281010;
     margin-left: 2vw;
@@ -32,7 +32,7 @@
     display: inline-block;
 }
 
-.qheader .readquestion {
+header .readquestion {
     width: 50px;
     height: 50px;
     margin: 15px;
@@ -41,7 +41,7 @@
     opacity: 0.7;
 }
 
-.qheader .readquestion:hover {
+header .readquestion:hover {
     opacity: 1;
 }
 
